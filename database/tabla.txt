@@ -1,6 +1,6 @@
 create table propiedades
 (
-id smallint primary key not null,
+id smallint primary key not null auto_increment,
 nombre varchar(100) not null,
 direccion varchar(200) not null,
 caracteristicas varchar(200),
