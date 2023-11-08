@@ -1,0 +1,11 @@
+create table propiedades
+(
+id smallint primary key not null,
+nombre varchar(100) not null,
+direccion varchar(200) not null,
+caracteristicas varchar(200),
+estado varchar(20) not null,
+precioalquiler decimal(6,2) not null,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
